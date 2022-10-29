@@ -1,0 +1,19 @@
+.home-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.images-main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images-main-wrapper img {
+  margin: 10px;
+}
+
+.custom-button-wrapper {
+  margin: 20px 0;
+}

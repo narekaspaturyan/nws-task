@@ -1,0 +1,11 @@
+.error-boundary {
+  background: red;
+  text-align: center;
+  padding: 5px;
+  color: white;
+}
+
+h3,
+h4 {
+  margin: 3px 0;
+}

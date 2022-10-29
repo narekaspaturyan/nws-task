@@ -1,0 +1,32 @@
+.custom-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  border-radius: 6px;
+  box-sizing: border-box;
+  color: var(--white-color);
+  width: 100%;
+  font-size: 18px;
+  height: 40px;
+  line-height: 29px;
+  padding: 0 20px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.custom-button:hover {
+  background: var(--primary-color-hover);
+  background: var(--white-color);
+}
+
+.custom-button .no-background {
+  background: transparent;
+  height: auto;
+  color: var(--primary-color);
+}
+
+.custom-button:hover {
+  color: var(--primary-color-hover);
+}
