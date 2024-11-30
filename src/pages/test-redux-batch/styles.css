@@ -1,0 +1,17 @@
+.order {
+  border: solid black;
+}
+
+button {
+  cursor: pointer;
+  margin: 20px;
+}
+
+span {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.count {
+  border: solid green;
+}

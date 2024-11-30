@@ -5,6 +5,7 @@ import Loading from 'components/loading'
 
 const Login = lazy(() => import('pages/login'))
 const Home = lazy(() => import('pages/home'))
+const Batch = lazy(() => import('pages/test-redux-batch'))
 
 const privateRoutes = [
   {
@@ -14,6 +15,10 @@ const privateRoutes = [
   {
     path: '/home',
     Component: Home,
+  },
+  {
+    path: '/test-batch',
+    Component: Batch,
   },
 ]
 

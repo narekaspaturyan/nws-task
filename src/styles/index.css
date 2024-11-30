@@ -7,10 +7,10 @@
   --nav-width: 250px;
 
   /*===== Colors =====*/
-  --white-color: #fff;
+  --white-color: #999;
   --border-color: #d7e0e8;
-  --white-color-dark: #f7f6fb;
-  --background-color: #f8f8fa;
+  --white-color-dark: #999;
+  --background-color: #999;
 
   --primary-color: #199bec;
   --primary-color-hover: #0c6196;

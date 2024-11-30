@@ -2,11 +2,13 @@ import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit'
 
 import categorieSlice from 'features/categorie-slice'
 import categorieByIdSlice from 'features/category-by-id-slice/index'
+import testSlice from 'features/test-slice/index'
 
 export const store = configureStore({
   reducer: {
     categories: categorieSlice,
     categoriesById: categorieByIdSlice,
+    testSlice,
   },
 })
 
